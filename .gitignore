@@ -1,0 +1,11 @@
+/target
+/test-results
+/img
+/test-output
+.classpath
+.idea/
+.project
+Licence
+Licence.txt
+README.md
+*.exe

@@ -1,0 +1,6 @@
+common.loc={"locator":"xpath=//*[contains(@text,'%s')]","desc":"common locator"}
+second.loc={"locator":"xpath=//*[contains(@text,'%s')]","desc":"common locator"}
+homePage.loc={"locator":"xpath=//*[contains(@resource-id,'id/action_bar_root')]","desc":"home page locator"}
+text.loc={"locator":xpath=//*[contains(@text,'%s')]","desc":"home page locator"}
+listoftext.loc={"locator":xpath=//*[contains(@resource-id,'titleTextView')]","desc":"List of the elements"}
+
