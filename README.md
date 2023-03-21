@@ -13,6 +13,20 @@ Overview
 	With the integration of Appium, QAF can easily automate mobile application testing, leveraging its rich features to improve the testing process.
 	The QAF framework provides a set of predefined libraries and utilities to make it easy for developers and testers to create and run tests on mobile
 	applications using Appium.
+	
+Framework Structure:
+	Basically we are using core java as programming languge
+	The framework is based on selenium webdriver,Cucumber BDD framework with Testng for testing.The frawework design pattern is page object model.
+	there are two subdirectories src and target
+	where in src we create packages for pageobject, stef def,Utility runner class and in resources we create feature file and under config dir we create testrun_config.xml file
+	we mention this xml file in pom xml.
+	under resource folder/platform we create loc file for storing locators in key value format adn we call the key in page leve class to create locator
+	In page object pakage we define methods. and those methods we call into stepdef file.
+	where in stepdef we wrote the actual code of test scenario.
+	Utility class stores and handles the functions (The code which is repetitive in nature such as waits, actions, capturing screenshots etc.which can be commonly used across the entire framework.
+	The reason behind creating a utility class is to achieve reusability.
+	In feature file contains the test scenarios which we have to test on web app
+	Using Maven for build, execution, and dependency purpose.
 
 Scenarios 
 	In background we are opening the application, the step will be common for each and every scenario so that we place that step in background
